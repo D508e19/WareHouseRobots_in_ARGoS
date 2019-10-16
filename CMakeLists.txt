@@ -45,7 +45,7 @@ include_directories(${CMAKE_SOURCE_DIR} ${ARGOS_INCLUDE_DIRS} ${LUA_INCLUDE_DIR}
 link_directories(${ARGOS_LIBRARY_DIRS})
 
 # Descend into the controllers directory
-add_subdirectory(Scr/controllers)
+add_subdirectory(Src/controllers)
 
 # Descend into the loop_functions directory
 #add_subdirectory(loop_functions)
