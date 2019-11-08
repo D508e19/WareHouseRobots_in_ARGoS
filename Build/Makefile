@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/glad/dev/ARGoSBaseRepo/Src
+CMAKE_SOURCE_DIR = /mnt/g/DEV/WareHouseRobots_in_ARGoS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/glad/dev/ARGoSBaseRepo/Build
+CMAKE_BINARY_DIR = /mnt/g/DEV/WareHouseRobots_in_ARGoS/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/glad/dev/ARGoSBaseRepo/Build/CMakeFiles /home/glad/dev/ARGoSBaseRepo/Build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/g/DEV/WareHouseRobots_in_ARGoS/build/CMakeFiles /mnt/g/DEV/WareHouseRobots_in_ARGoS/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/glad/dev/ARGoSBaseRepo/Build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/g/DEV/WareHouseRobots_in_ARGoS/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -120,7 +120,7 @@ alibot: cmake_check_build_system
 
 # fast build rule for target.
 alibot/fast:
-	$(MAKE) -f controllers/alibot/CMakeFiles/alibot.dir/build.make controllers/alibot/CMakeFiles/alibot.dir/build
+	$(MAKE) -f Src/controllers/alibot/CMakeFiles/alibot.dir/build.make Src/controllers/alibot/CMakeFiles/alibot.dir/build
 .PHONY : alibot/fast
 
 #=============================================================================
@@ -133,7 +133,7 @@ alibot_autogen: cmake_check_build_system
 
 # fast build rule for target.
 alibot_autogen/fast:
-	$(MAKE) -f controllers/alibot/CMakeFiles/alibot_autogen.dir/build.make controllers/alibot/CMakeFiles/alibot_autogen.dir/build
+	$(MAKE) -f Src/controllers/alibot/CMakeFiles/alibot_autogen.dir/build.make Src/controllers/alibot/CMakeFiles/alibot_autogen.dir/build
 .PHONY : alibot_autogen/fast
 
 # Help Target

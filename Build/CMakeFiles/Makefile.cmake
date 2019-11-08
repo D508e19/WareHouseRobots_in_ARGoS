@@ -7,14 +7,14 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "../CMakeLists.txt"
+  "../Src/controllers/CMakeLists.txt"
+  "../Src/controllers/alibot/CMakeLists.txt"
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
-  "/home/glad/dev/ARGoSBaseRepo/Src/CMakeLists.txt"
-  "/home/glad/dev/ARGoSBaseRepo/Src/controllers/CMakeLists.txt"
-  "/home/glad/dev/ARGoSBaseRepo/Src/controllers/alibot/CMakeLists.txt"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake"
@@ -136,12 +136,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "controllers/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "controllers/alibot/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Src/controllers/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Src/controllers/alibot/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "controllers/alibot/CMakeFiles/alibot.dir/DependInfo.cmake"
-  "controllers/alibot/CMakeFiles/alibot_autogen.dir/DependInfo.cmake"
+  "Src/controllers/alibot/CMakeFiles/alibot.dir/DependInfo.cmake"
+  "Src/controllers/alibot/CMakeFiles/alibot_autogen.dir/DependInfo.cmake"
   )
